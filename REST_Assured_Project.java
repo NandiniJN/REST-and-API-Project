@@ -26,12 +26,12 @@ public class REST_Assured_Project {
 		requestSpec = new RequestSpecBuilder()
 				// Set content type
 				.setContentType(ContentType.JSON)
-				.addHeader("Authorization", "token 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")
+				.addHeader("Authorization", "token XXXXXX")
 				// Set base URL
 				.setBaseUri("https://api.github.com")
 				// Build request specification
 				.build();
-		sshKey = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCZm4GunSodUKXn0ubVDkY+EtIR6MZ3nFi7FKuwLXeBx1WOkfJqpcXI4V9UQqMPnbrgu39T2ajm5PlmCgx2xAJH+n5xutedDvbEAxbzDU3LDtzCDI0qY5PjIONLc7sGDG/4Nt4aSAjeVq+CGEYeR+KJzqmBwlvLqceVI9bH58qTei6uh+fYMuRQAnzMZ1l2hXJC3piWmLaWxWoTejDxRRLNdf2HUmhMwvaFIjcF/msJSvxCJcBPHw7iJsEeMqPH4S52IuymtijXUVaCQwcWZhWbQQeM+zE1Xuov5/5cDwpbHla/rjKVJxCNAJrRa/lSdk3bRq8dB+8IsIyBRW17vN8G53UOUSLho8/bUOyQpR1PxLW78gyUkkUsrFbAABdOqrBXEQcadAUSsbyuu1WjHHaviCibzbQN9IYhggLLyFUAftR7mXL/XISfYpKTkYRFSQG6td2OELOumT0usmlXUiFoE3iJP8F2sOYr79dMwVttGxFewrF4/z7aEUPIy7qPgHM=";
+		sshKey = "ssh-rsa XXXXXX";
 	}
     
 	@Test(priority = 1)
